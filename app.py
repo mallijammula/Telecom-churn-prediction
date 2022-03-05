@@ -17,7 +17,7 @@ app = Flask(__name__)
  #   return 'Hello World!'
 
 
-@app.route('/index')
+@app.route('/')
 def index():
     return flask.render_template('input.html')
 
